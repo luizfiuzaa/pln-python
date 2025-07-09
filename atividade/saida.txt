@@ -1,0 +1,157 @@
+=== TOKENIZAÇÃO ===
+A médica Ana Paula viajou para São Paulo no dia 15 de março . Ela participou de uma conferência internacional sobre saúde pública . João , seu colega de trabalho , ficou responsável pelos atendimentos no hospital durante sua ausência . 
+
+
+=== POS (Part-of-Speech Tagging) ===
+A -> DET
+médica -> NOUN
+Ana -> PROPN
+Paula -> PROPN
+viajou -> VERB
+para -> ADP
+São -> PROPN
+Paulo -> PROPN
+no -> ADP
+dia -> NOUN
+15 -> NUM
+de -> ADP
+março -> NOUN
+. -> PUNCT
+Ela -> PRON
+participou -> VERB
+de -> ADP
+uma -> DET
+conferência -> NOUN
+internacional -> ADJ
+sobre -> ADP
+saúde -> NOUN
+pública -> ADJ
+. -> PUNCT
+João -> PROPN
+, -> PUNCT
+seu -> DET
+colega -> NOUN
+de -> ADP
+trabalho -> NOUN
+, -> PUNCT
+ficou -> VERB
+responsável -> ADJ
+pelos -> ADP
+atendimentos -> NOUN
+no -> ADP
+hospital -> NOUN
+durante -> ADP
+sua -> DET
+ausência -> NOUN
+. -> PUNCT
+
+ -> SPACE
+
+=== LEMATIZAÇÃO ===
+A -> o
+médica -> médica
+Ana -> Ana
+Paula -> Paula
+viajou -> viajar
+para -> para
+São -> São
+Paulo -> Paulo
+no -> em o
+dia -> dia
+15 -> 15
+de -> de
+março -> março
+. -> .
+Ela -> ela
+participou -> participar
+de -> de
+uma -> um
+conferência -> conferência
+internacional -> internacional
+sobre -> sobre
+saúde -> saúde
+pública -> público
+. -> .
+João -> João
+, -> ,
+seu -> seu
+colega -> colega
+de -> de
+trabalho -> trabalho
+, -> ,
+ficou -> ficar
+responsável -> responsável
+pelos -> por o
+atendimentos -> atendimento
+no -> em o
+hospital -> hospital
+durante -> durante
+sua -> seu
+ausência -> ausência
+. -> .
+
+ -> 
+
+
+=== STOP WORDS ===
+A para São no de Ela de uma sobre seu de pelos no sua
+
+=== ENTIDADES NOMEADAS (NER) ===
+Ana Paula -> PER
+São Paulo -> LOC
+João -> PER
+
+=== SEGMENTAÇÃO DE SENTENÇAS ===
+A médica Ana Paula viajou para São Paulo no dia 15 de março.
+Ela participou de uma conferência internacional sobre saúde pública.
+João, seu colega de trabalho, ficou responsável pelos atendimentos no hospital durante sua ausência.
+
+
+=== MORFOLOGIA ===
+A -> Definite=Def|Gender=Fem|Number=Sing|PronType=Art
+médica -> Gender=Fem|Number=Sing
+Ana -> Gender=Fem|Number=Sing
+Paula -> Number=Sing
+viajou -> Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+para -> 
+São -> Gender=Masc|Number=Sing
+Paulo -> Number=Sing
+no -> Definite=Def|Gender=Masc|Number=Sing|PronType=Art
+dia -> Gender=Masc|Number=Sing
+15 -> NumType=Card
+de -> 
+março -> Gender=Masc|Number=Sing
+. -> 
+Ela -> Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+participou -> Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+de -> 
+uma -> Definite=Ind|Gender=Fem|Number=Sing|PronType=Art
+conferência -> Gender=Fem|Number=Sing
+internacional -> Gender=Fem|Number=Sing
+sobre -> 
+saúde -> Gender=Fem|Number=Sing
+pública -> Gender=Fem|Number=Sing
+. -> 
+João -> Gender=Masc|Number=Sing
+, -> 
+seu -> Gender=Masc|Number=Sing|PronType=Prs
+colega -> Gender=Masc|Number=Sing
+de -> 
+trabalho -> Gender=Masc|Number=Sing
+, -> 
+ficou -> Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+responsável -> Gender=Masc|Number=Sing
+pelos -> Definite=Def|Gender=Masc|Number=Plur|PronType=Art
+atendimentos -> Gender=Masc|Number=Plur
+no -> Definite=Def|Gender=Masc|Number=Sing|PronType=Art
+hospital -> Gender=Masc|Number=Sing
+durante -> 
+sua -> Gender=Fem|Number=Sing|PronType=Prs
+ausência -> Gender=Fem|Number=Sing
+. -> 
+
+ -> 
+
+=== SIMILARIDADE ENTRE TOKENS ===
+Palavras comparadas: 'hospital' e 'médica'
+Similaridade: 0.3177
