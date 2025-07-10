@@ -10,4 +10,4 @@ doc = nlp(texto)
 # Lematização
 for token in doc:
     # print(token.text, token.lemma_)
-    print(f"{token.text:15} ➜  {token.lemma_}")
+    print(f"{token.text:15} -> {token.lemma_}")

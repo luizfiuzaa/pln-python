@@ -1,0 +1,107 @@
+=== TOKENIZAÇÃO ===
+Num vilarejo entre montanhas , Clara achou um mapa antigo . Com botas velhas , partiu atrás do lago de cristal , onde desejos viram estrelas . 
+
+=== POS (Part-of-Speech Tagging) ===
+Num             -> ADP
+vilarejo        -> NOUN
+entre           -> ADP
+montanhas       -> NOUN
+,               -> PUNCT
+Clara           -> PROPN
+achou           -> VERB
+um              -> DET
+mapa            -> NOUN
+antigo          -> ADJ
+.               -> PUNCT
+Com             -> ADP
+botas           -> NOUN
+velhas          -> ADJ
+,               -> PUNCT
+partiu          -> VERB
+atrás           -> ADV
+do              -> ADP
+lago            -> NOUN
+de              -> ADP
+cristal         -> PROPN
+,               -> PUNCT
+onde            -> PRON
+desejos         -> NOUN
+viram           -> VERB
+estrelas        -> NOUN
+.               -> PUNCT
+
+
+=== LEMMATIZAÇÃO ===
+Num             -> em um
+vilarejo        -> vilarejo
+entre           -> entre
+montanhas       -> montanha
+,               -> ,
+Clara           -> Clara
+achou           -> achar
+um              -> um
+mapa            -> mapa
+antigo          -> antigo
+.               -> .
+Com             -> com
+botas           -> bota
+velhas          -> velho
+,               -> ,
+partiu          -> partir
+atrás           -> atrás
+do              -> de o
+lago            -> lago
+de              -> de
+cristal         -> cristal
+,               -> ,
+onde            -> onde
+desejos         -> desejo
+viram           -> ver
+estrelas        -> estrela
+.               -> .
+
+
+=== STOP WORDS ===
+Num entre um Com atrás do de onde 
+
+=== ENTIDADES NOMEADAS (NER) ===
+Clara           -> LOClago de cristal -> LOC
+
+=== SEGMENTAÇÃO DE SENTENÇAS ===
+Num vilarejo entre montanhas, Clara achou um mapa antigo.Com botas velhas, partiu atrás do lago de cristal, onde desejos viram estrelas.
+
+=== MORFOLOGIA ===
+Num             -> Definite=Ind|Gender=Masc|Number=Sing|PronType=Art
+vilarejo        -> Gender=Masc|Number=Sing
+entre           -> 
+montanhas       -> Gender=Fem|Number=Plur
+,               -> 
+Clara           -> Gender=Masc|Number=Sing
+achou           -> Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+um              -> Definite=Ind|Gender=Masc|Number=Sing|PronType=Art
+mapa            -> Gender=Masc|Number=Sing
+antigo          -> Gender=Masc|Number=Sing
+.               -> 
+Com             -> 
+botas           -> Gender=Fem|Number=Plur
+velhas          -> Gender=Fem|Number=Plur
+,               -> 
+partiu          -> Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+atrás           -> 
+do              -> Definite=Def|Gender=Masc|Number=Sing|PronType=Art
+lago            -> Gender=Masc|Number=Sing
+de              -> 
+cristal         -> Number=Sing
+,               -> 
+onde            -> Gender=Masc|Number=Sing|PronType=Rel
+desejos         -> Gender=Masc|Number=Plur
+viram           -> Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+estrelas        -> Gender=Fem|Number=Plur
+.               -> 
+
+
+=== SIMILARIDADE ENTRE TOKENS ===
+Palavras Comparadas 'estrelas' e 'botas'
+Similaridade: 0.4163
+
+
